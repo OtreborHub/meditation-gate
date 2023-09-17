@@ -1,0 +1,105 @@
+{
+  "home": [
+    {
+      "id": 0,
+      "type": "title",
+      "content":"Meditation Gate"
+    },
+    {
+      "id": 1,
+      "type": "paragraph",
+      "content":"La meditazione è un viaggio tra i pensieri e le sensazioni, e noi vogliamo aiutarti a costruire la roadmap in modo che sia fantastico.\nIniziamo con una domanda facile:"
+    },
+    {
+      "id": 2,
+      "type": "button",
+      "content":"Get Started",
+      "inputLabel": "Come preferisci essere chiamato?",
+      "to": "/dashboard"
+    }
+  ],
+  
+  "dashboard": [
+    {
+      "id": 0,
+      "type": "paragraph",
+      "content":"Se è la prima volta che mediti ti consiglio di iniziare con 5 minuti e vedrai che man mano ti verrà spontaneo voler sedute progressivamente più lunghe."
+    },
+    {
+      "id": 1,
+      "type": "button",
+      "content":"Timer"
+    },
+    {
+      "id": 2,
+      "title": "button",
+      "content":"Ambiente"
+    }
+  ],
+  
+  "slider" : [
+    {
+        "id": 0,
+        "value": 0,
+        "label": "00:00",
+        "tooltip": "Lazy"
+    },
+    {
+        "id": 1,
+        "value": 18,
+        "label": "05:00",
+        "tooltip": "Beginner"
+    },
+    {
+        "id": 2,
+        "value": 36,
+        "label": "10:00",
+        "tooltip": "Intermediate"
+    },
+    {
+        "id": 3,
+        "value": 54,
+        "label": "15:00",
+        "tooltip": "Advanced"
+    },
+    {
+        "id": 4,
+        "value": 72,
+        "label": "20:00",
+        "tooltip": "Expert"
+    },
+    {
+        "id": 5,
+        "value": 100,
+        "label": "30:00",
+        "tooltip": "Master"
+    }
+  ],
+  
+  "tracks": [
+    {
+      "id":0,
+      "type":"track",
+      "label":"Rain Forest",
+      "content": "/asset/rain.mp3"
+    },
+    {
+      "id":1,
+      "type":"track",
+      "label":"Mountain Bonfire",
+      "content": "/asset/fire.mp3"
+    },
+    {
+      "id":2,
+      "type":"track",
+      "label":"Beach Sunset",
+      "content": "/asset/beach.mp3"
+    },
+    {
+      "id":3,
+      "type":"track",
+      "label":"Starry Night",
+      "content": "/asset/night.mp3"
+    }
+  ]
+}

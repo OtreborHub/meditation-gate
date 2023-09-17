@@ -1,0 +1,8 @@
+.container-fluid {
+    background: linear-gradient(#f1b309, #e0d3b0, #f1b309);
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: flex-start;
+    height: 80rem;
+}
