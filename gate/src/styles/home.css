@@ -1,8 +1,11 @@
 .container-fluid {
-    background: linear-gradient(#f1b309, #e0d3b0, #f1b309);
+    /* background: linear-gradient(#f1b309, #e0d3b0, #f1b309); */
+    background-image: url('../assets/img/home.jpg');
+    background-size: cover;
     display: flex;
     flex-direction: column;  
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
-    height: 80rem;
+    width: 100%;
+    height: 100vh;
 }

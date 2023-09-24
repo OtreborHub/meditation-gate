@@ -1,0 +1,36 @@
+.bg0 {
+    background-image: url('../assets/img/rain-forest.jpeg');
+    background-size: cover;
+}
+
+.bg1 {
+    background-image: url('../assets/img/snow-campfire.jpg');
+    background-size: cover;
+}
+
+.bg2 {
+    background-image: url('../assets/img/beach-sunset.jpg');
+    background-position: 10%;
+    background-size: cover;
+}
+
+.bg3 {
+    background-image: url('../assets/img/starry-night.jpg');
+    background-position: 20%;
+    background-size: cover;
+}
+
+.selectedItem {
+    border: 0.4rem solid #4a81d3 !important;
+    border-radius: 0.5% !important;
+    
+}
+
+.selectedLabel {
+    font-style: italic;
+}
+
+.label {
+    margin: 0.5rem;
+    color: #fff;
+}

@@ -8,13 +8,13 @@
     {
       "id": 1,
       "type": "paragraph",
-      "content":"La meditazione è un viaggio tra i pensieri e le sensazioni, e noi vogliamo aiutarti a costruire la roadmap in modo che sia fantastico.\nIniziamo con una domanda facile:"
+      "content":"La meditazione è un viaggio tra i pensieri e le sensazioni, e noi vogliamo fornirni uno strumento rapido per le tue sessioni\nScrivi come ti chiami e partiamo!"
     },
     {
       "id": 2,
       "type": "button",
-      "content":"Get Started",
-      "inputLabel": "Come preferisci essere chiamato?",
+      "content":"Quick Start",
+      "inputLabel": "Nome",
       "to": "/dashboard"
     }
   ],
@@ -23,7 +23,7 @@
     {
       "id": 0,
       "type": "paragraph",
-      "content":"Se è la prima volta che mediti ti consiglio di iniziare con 5 minuti e vedrai che man mano ti verrà spontaneo voler sedute progressivamente più lunghe."
+      "content":"Imposta il timer e l'ambiente in cui preferiresti meditare"
     },
     {
       "id": 1,
@@ -36,7 +36,39 @@
       "content":"Ambiente"
     }
   ],
-  
+
+  "dashboard-intro": [
+    {
+      "id": 0,
+      "type": "paragraph",
+      "content": "Benvenuto a questa sessione di meditazione, un momento dedicato al vostro benessere interiore."
+    },
+    {
+      "id": 1,
+      "type": "paragraph",
+      "content": "Prendetevi questo tempo speciale per rilassarvi profondamente e riconnettervi con voi stessi"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "content": "Chiudete gli occhi e immergetevi nell'esperienza di questo momento, lasciando alle spalle le preoccupazioni della giornata. Premete avvia sessione prima."
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "content": "Oggi, esploreremo insieme il potere della consapevolezza attraverso la meditazione."
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "content": "Sedetevi comodamente e lasciate che la vostra mente si calmi mentre iniziamo questo viaggio meditativo."
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "content": "Siate presenti in questo momento, lasciando andare ogni distrazione esterna."
+    }
+  ],  
   "slider" : [
     {
         "id": 0,
@@ -80,25 +112,25 @@
     {
       "id":0,
       "type":"track",
-      "label":"Rain Forest",
-      "content": "/asset/rain.mp3"
+      "label":"Foresta piovosa",
+      "content": "../asset/video/rainForest.mp3"
     },
     {
       "id":1,
       "type":"track",
-      "label":"Mountain Bonfire",
-      "content": "/asset/fire.mp3"
+      "label":"Falò in montagna",
+      "content": "../asset/video/mountainBonfire.mp3"
     },
     {
       "id":2,
       "type":"track",
-      "label":"Beach Sunset",
+      "label":"Tramonto in spiaggia",
       "content": "/asset/beach.mp3"
     },
     {
       "id":3,
       "type":"track",
-      "label":"Starry Night",
+      "label":"Campeggio di notte",
       "content": "/asset/night.mp3"
     }
   ]
