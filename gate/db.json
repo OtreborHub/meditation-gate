@@ -1,72 +1,34 @@
 {
-  "home": [
-    {
-      "id": 0,
-      "type": "title",
-      "content":"Meditation Gate"
-    },
-    {
-      "id": 1,
-      "type": "paragraph",
-      "content":"La meditazione è un viaggio tra i pensieri e le sensazioni, e noi vogliamo fornirni uno strumento rapido per le tue sessioni\nScrivi come ti chiami e partiamo!"
-    },
-    {
-      "id": 2,
-      "type": "button",
-      "content":"Quick Start",
-      "inputLabel": "Nome",
-      "to": "/dashboard"
-    }
-  ],
-  
-  "dashboard": [
-    {
-      "id": 0,
-      "type": "paragraph",
-      "content":"Imposta il timer e l'ambiente in cui preferiresti meditare"
-    },
-    {
-      "id": 1,
-      "type": "button",
-      "content":"Timer"
-    },
-    {
-      "id": 2,
-      "title": "button",
-      "content":"Ambiente"
-    }
-  ],
-
   "dashboard-intro": [
     {
       "id": 0,
       "type": "paragraph",
-      "content": "Benvenuto a questa sessione di meditazione, un momento dedicato al vostro benessere interiore."
+      "content": "Benvenuto in questa sessione di meditazione, un momento dedicato al tuo benessere interiore..."
     },
     {
       "id": 1,
       "type": "paragraph",
-      "content": "Prendetevi questo tempo speciale per rilassarvi profondamente e riconnettervi con voi stessi"
+      "content": "Prenditi questo tempo speciale per rilassarti profondamente e riconnetterti con te stesso..."
     },
     {
       "id": 2,
       "type": "paragraph",
-      "content": "Chiudete gli occhi e immergetevi nell'esperienza di questo momento, lasciando alle spalle le preoccupazioni della giornata. Premete avvia sessione prima."
+      "content": "Chiudi gli occhi e immergiti nell'esperienza di questo momento. Lascia alle spalle le preoccupazioni della giornata. Premi avvia sessione prima..."
     },
     {
       "id": 3,
       "type": "paragraph",
-      "content": "Oggi, esploreremo insieme il potere della consapevolezza attraverso la meditazione."
+      "content": "Oggi, esploreremo insieme il potere della consapevolezza attraverso la meditazione..."
     },
     {
       "id": 4,
       "type": "paragraph",
-      "content": "Sedetevi comodamente e lasciate che la vostra mente si calmi mentre iniziamo questo viaggio meditativo."
+      "content": "Siediti comodamente e lascia che la tua mente si calmi mentre iniziamo questo viaggio..."
     },
     {
       "id": 5,
       "type": "paragraph",
-      "content": "Siate presenti in questo momento, lasciando andare ogni distrazione esterna."
+      "content": "Sii presenti in questo momento. Lascia andare ogni distrazione esterna..."
     }
   ],  
   "slider" : [
@@ -107,31 +69,30 @@
         "tooltip": "Master"
     }
   ],
-  
   "tracks": [
     {
       "id":0,
       "type":"track",
       "label":"Foresta piovosa",
-      "content": "../asset/video/rainForest.mp3"
+      "content": "../../assets/videos/video/rainForest.mp3"
     },
     {
       "id":1,
       "type":"track",
       "label":"Falò in montagna",
-      "content": "../asset/video/mountainBonfire.mp3"
+      "content": "../../assets/videos/video/mountainBonfire.mp3"
     },
     {
       "id":2,
       "type":"track",
       "label":"Tramonto in spiaggia",
-      "content": "/asset/beach.mp3"
+      "content": "../../assets/videos/beachSunset.mp3"
     },
     {
       "id":3,
       "type":"track",
       "label":"Campeggio di notte",
-      "content": "/asset/night.mp3"
+      "content": "../../assets/videos/starryNight.mp3"
     }
   ]
 }

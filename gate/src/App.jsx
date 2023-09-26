@@ -1,36 +1,22 @@
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
-import Home from './components/Home';
-import SessionDashboard from './components/SessionDashboard';
+import SessionDashboard from './components/dashboard/SessionDashboard';
+import Home from './components/home/Home';
+import initFirebase from "./utils/firebase";
 
-// import React from 'react';
-
-
-//FUNCTION COMPONENT
 export default function App() {
+  initFirebase();
 
   return (
     <BrowserRouter>
       <Routes>
-         <Route path="/" index element={<Home/>} />
-         <Route path="/dashboard" element={<SessionDashboard/>} /> 
+        <Route path="/" index element={<Home />} />
+        <Route path="/dashboard" element={<SessionDashboard />} />
       </Routes>
-     </BrowserRouter>
-  );  
+    </BrowserRouter>
+  );
 }
-
-
-//CLASS COMPONENT
-// class App extends React.Component{
-//   render() {
-//     return 
-//       <div className='App'>
-//         <Header/>
-//         <h2> Hello </h2>
-//       </div>
-//   }
-// }
 
 
 

@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
-import timerReducer from './Slices/SliceTimer';
-import videoReducer from './Slices/SliceVideo';
+import timerReducer from './slices/SliceTimer';
+import videoReducer from './slices/SliceVideo';
 
 const store = configureStore({
   reducer: {
