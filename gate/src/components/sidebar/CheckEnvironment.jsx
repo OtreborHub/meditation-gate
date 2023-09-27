@@ -48,7 +48,12 @@ export default function CheckEnvironment() {
 
     return (
         <Box marginBottom={"3rem"}>
-        <Typography variant={(isMobile && "h5") || (isDesktop && "h4")} margin={(isMobile && "3rem") || (isDesktop && "5rem")} textAlign={"center"}> In che mood sei? </Typography>
+        <Typography 
+          variant={(isMobile && "h5") || (isDesktop && "h4")} 
+          margin={(isMobile && "3rem") || (isDesktop && "5rem")}
+          textAlign={"center"}
+        > In che mood sei? 
+        </Typography>
         <List component="nav" aria-label="main mailbox folders">
             {tracks.map(({id, label}) => (
                 <ListItemButton
@@ -67,11 +72,11 @@ export default function CheckEnvironment() {
 
                     <div className='backgroundLabel'>
                     <ListItemText primary={
-                      <Typography variant="body2" 
-                      color={"#fff"}
-                      margin={"0.5rem"}
+                      <Typography 
+                      variant="body2" 
+                      color="#fff"
+                      margin="0.5rem"
                       fontStyle={isSelected(id) ? "italic" : "none"}
-                      // style={isSelected(id) === true ? selectedLabel : null}
                       >{label}
                       </Typography>
                     } />

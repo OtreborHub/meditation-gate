@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build",
+    "redirects": [
+      {
+        "source": "/dashboard",
+        "destination": "/",
+        "type": 301
+      }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
