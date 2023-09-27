@@ -26,7 +26,7 @@ export default function Intro() {
                         (isMobile && "1.2rem") || 
                         (isDesktop && "1.7rem")}
                 > La meditazione è un viaggio tra i pensieri e le sensazioni. 
-                  Noi vogliamo fornirni uno strumento rapido per le tue sessioni. <br/>
+                  Noi vogliamo fornirti uno strumento rapido per le tue sessioni. <br/>
                   Scrivi come ti chiami e partiamo!
             </Typography>
         </div>
