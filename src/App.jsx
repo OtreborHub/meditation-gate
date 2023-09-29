@@ -1,8 +1,8 @@
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
-import SessionDashboard from './components/dashboard/SessionDashboard';
-import Home from './components/home/Home';
+import SessionDashboard from './view/SessionDashboard';
+import Home from './view/Home';
 import initFirebase from "./utils/firebase";
 
 export default function App() {

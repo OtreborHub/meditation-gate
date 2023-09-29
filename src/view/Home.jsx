@@ -1,8 +1,8 @@
 import Box from '@mui/material/Box';
 import React from 'react';
-import '../../styles/home.css';
-import Intro from './HomeIntro';
-import NameForm from './NameForm';
+import '../styles/home.css'
+import Intro from '../components/home/HomeIntro';
+import NameForm from '../components/home/NameForm';
 
 export default function Home() {
 

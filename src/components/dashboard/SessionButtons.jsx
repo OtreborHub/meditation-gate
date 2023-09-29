@@ -1,7 +1,7 @@
 import { Button, Grid } from "@mui/material";
 import { useMediaQuery } from 'react-responsive';
-import ButtonBottombar from "./ButtonBottombar";
-import ButtonSidebar from "./ButtonSidebar";
+import ButtonBottombar from "./sidebar/ButtonBottombar";
+import ButtonSidebar from "./sidebar/ButtonSidebar";
 
 export default function SessionButtons({formattedTime, environment, startSession}){
 

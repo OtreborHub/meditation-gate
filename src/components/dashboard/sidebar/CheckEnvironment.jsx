@@ -6,9 +6,9 @@ import ListItemButton from '@mui/material/ListItemButton';
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from "react-redux";
 import { useMediaQuery } from 'react-responsive';
-import '../../styles/checkEnvironment.css';
-import { setToValue } from "../../utils/slices/SliceVideo";
-import { db } from '../../utils/firebase';
+import '../../../styles/checkEnvironment.css';
+import { setToValue } from "../../../utils/slices/SliceVideo";
+import { db } from '../../../utils/firebase';
 import { onValue, ref } from "firebase/database";
 
 export default function CheckEnvironment() {

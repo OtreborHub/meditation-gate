@@ -4,17 +4,16 @@ import * as React from 'react';
 import { useEffect, useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useLocation } from 'react-router-dom';
-import beachSunset from '../../assets/videos/beachSunset.mp4';
-import mountainBonfire from '../../assets/videos/mountainBonfire.mp4';
-import rainForest from '../../assets/videos/rainForest.mp4';
-import starryNight from '../../assets/videos/starryNight.mp4';
-import '../../styles/sessionDashboard.css';
-import { db } from '../../utils/firebase';
-import { formatTime, parseTime } from '../../utils/formatter';
-import { decrement } from "../../utils/slices/SliceTimer";
-import SessionButtons from '../sidebar/SessionButtons';
-import Session from './Session';
-import SessionIntro from './SessionIntro';
+import beachSunset from '../assets/videos/beachSunset.mp4';
+import mountainBonfire from '../assets/videos/mountainBonfire.mp4';
+import rainForest from '../assets/videos/rainForest.mp4';
+import starryNight from '../assets/videos/starryNight.mp4';
+import { db } from '../utils/firebase';
+import { formatTime, parseTime } from '../utils/formatter';
+import { decrement } from "../utils/slices/SliceTimer";
+import SessionButtons from '../components/dashboard/SessionButtons';
+import Session from '../components/dashboard/Session';
+import SessionIntro from '../components/dashboard/SessionIntro';
 
 export default function SessionDashboard(props) {
 

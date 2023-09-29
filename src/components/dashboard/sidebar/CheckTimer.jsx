@@ -3,9 +3,9 @@ import { onValue, ref } from "firebase/database";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useMediaQuery } from 'react-responsive';
-import { db } from '../../utils/firebase';
-import { formatTime, parseTime } from '../../utils/formatter';
-import { addValue, setToValue } from "../../utils/slices/SliceTimer";
+import { db } from '../../../utils/firebase';
+import { formatTime, parseTime } from '../../../utils/formatter';
+import { addValue, setToValue } from "../../../utils/slices/SliceTimer";
 
 export default function CheckTimer() {
     const isMobile = useMediaQuery({ query: '(max-width: 900px)' });
